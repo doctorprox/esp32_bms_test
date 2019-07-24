@@ -1,8 +1,8 @@
 C:\Users\lovel\AppData\Local\Temp\VMBuilds\test\esp32_esp32\Debug\BLE\BLEDescriptorMap.cpp.o: \
- C:\Users\lovel\OneDrive\Documents\Arduino\libraries\BLE\src\BLEDescriptorMap.cpp \
+ C:\Users\lovel\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.2\libraries\BLE\src\BLEDescriptorMap.cpp \
  C:\Users\lovel\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.2/tools/sdk/include/config/sdkconfig.h \
- C:\Users\lovel\OneDrive\Documents\Arduino\libraries\BLE\src\BLECharacteristic.h \
- C:\Users\lovel\OneDrive\Documents\Arduino\libraries\BLE\src\BLEUUID.h \
+ C:\Users\lovel\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.2\libraries\BLE\src\BLECharacteristic.h \
+ C:\Users\lovel\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.2\libraries\BLE\src\BLEUUID.h \
  C:\Users\lovel\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.2/tools/sdk/include/bt/esp_gatt_defs.h \
  C:\Users\lovel\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.2/tools/sdk/include/bt/esp_bt_defs.h \
  C:\Users\lovel\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.2/tools/sdk/include/bt/esp_gatts_api.h \
@@ -12,8 +12,8 @@ C:\Users\lovel\AppData\Local\Temp\VMBuilds\test\esp32_esp32\Debug\BLE\BLEDescrip
  C:\Users\lovel\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.2/tools/sdk/include/newlib/sys/stdio.h \
  C:\Users\lovel\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.2/tools/sdk/include/newlib/assert.h \
  C:\Users\lovel\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.2/tools/sdk/include/bt/esp_gap_ble_api.h \
- C:\Users\lovel\OneDrive\Documents\Arduino\libraries\BLE\src\BLEDescriptor.h \
- C:\Users\lovel\OneDrive\Documents\Arduino\libraries\BLE\src\FreeRTOS.h \
+ C:\Users\lovel\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.2\libraries\BLE\src\BLEDescriptor.h \
+ C:\Users\lovel\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.2\libraries\BLE\src\FreeRTOS.h \
  C:\Users\lovel\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.2/tools/sdk/include/freertos/freertos/FreeRTOS.h \
  C:\Users\lovel\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.2/tools/sdk/include/freertos/freertos/FreeRTOSConfig.h \
  C:\Users\lovel\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.2/tools/sdk/include/freertos/freertos/xtensa_config.h \
@@ -73,7 +73,7 @@ C:\Users\lovel\AppData\Local\Temp\VMBuilds\test\esp32_esp32\Debug\BLE\BLEDescrip
  C:\Users\lovel\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.2/tools/sdk/include/freertos/freertos/queue.h \
  C:\Users\lovel\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.2/tools/sdk/include/esp_ringbuf/freertos/ringbuf.h \
  C:\Users\lovel\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.2/tools/sdk/include/freertos/freertos/queue.h \
- C:\Users\lovel\OneDrive\Documents\Arduino\libraries\BLE\src\BLEValue.h \
+ C:\Users\lovel\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.2\libraries\BLE\src\BLEValue.h \
  C:\Users\lovel\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.2\cores\esp32/esp32-hal-log.h \
  C:\Users\lovel\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.2/tools/sdk/include/log/esp_log.h \
  C:\Users\lovel\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.2/tools/sdk/include/log/esp_log_internal.h

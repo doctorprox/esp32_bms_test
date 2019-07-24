@@ -125,7 +125,7 @@ struct BMS_vars {
 
 struct BMS_config_vars {
 	int8_t num_cells = 12;
-	int16_t bms_refresh_ms = 500;
+	int16_t bms_refresh_ms = 1000;
 };
 
 //int8_t num_cells = 12;
@@ -159,13 +159,13 @@ void setup()
 	ESP_SPI_init();
 	LTC6812_initialise();
 
-	xTaskCreate(
-		check_faults,          /* Task function. */
-		"Check for faults",        /* String with name of task. */
-		1000,            /* Stack size in bytes. */
-		NULL,             /* Parameter passed as input of the task */
-		5,                /* Priority of the task. */
-		NULL);            /* Task handle. */
+	//xTaskCreate(
+	//	check_faults,          /* Task function. */
+	//	"Check for faults",        /* String with name of task. */
+	//	1000,            /* Stack size in bytes. */
+	//	NULL,             /* Parameter passed as input of the task */
+	//	5,                /* Priority of the task. */
+	//	NULL);            /* Task handle. */
 
 	CAN_initialise();
 
@@ -268,7 +268,7 @@ void CAN_initialise() {
 void CAN_output_summary(void * parameter) {
 	while (true)
 	{
-		Serial.print("\nHighV: ");
+		/*Serial.print("\nHighV: ");
 		Serial.print(BMS_variable.highv, 4);
 		Serial.println();
 
@@ -279,7 +279,7 @@ void CAN_output_summary(void * parameter) {
 		Serial.print("Mode: ");
 		Serial.print(BMS_variable.mode, 1);
 		Serial.println();
-
+		*/
 		can_message_t message;
 		message.identifier = 0x18FF0600;
 		message.flags = CAN_MSG_FLAG_EXTD;
@@ -501,8 +501,8 @@ void LTC6812_read_cell_voltages(void * parameter)
 		BMS_variable.packv = bms_ic[0].stat.stat_codes[0] * 0.0001 * 30;
 		
 		BMS_variable.pcbtemp = (bms_ic[0].stat.stat_codes[1] * 0.0001 / 0.0076)-276;
-		Serial.println(bms_ic[0].stat.stat_codes[3] * 0.0001, 4);
-		Serial.println(bms_ic[0].stat.stat_codes[4] * 0.0001, 4);
+		//Serial.println(bms_ic[0].stat.stat_codes[3] * 0.0001, 4);
+		//Serial.println(bms_ic[0].stat.stat_codes[4] * 0.0001, 4);
 		for (int i = 0; i < bms_ic[0].ic_reg.cell_channels; i++)
 		{
 			Serial.print(bms_ic[0].cells.c_codes[i] * 0.0001, 4);

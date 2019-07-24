@@ -25,6 +25,7 @@
 #define CORE_DEBUG_LEVEL 0
 #define __cplusplus 201103L
 #undef __cplusplus
+#define _Pragma(x)
 #define __cplusplus 201103L
 #define __STDC__
 #define __ARM__
