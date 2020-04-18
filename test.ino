@@ -169,7 +169,7 @@ void setup()
 
 	CAN_initialise();
 
-	BLE_initialise();
+	//BLE_initialise();
 
 }
 
@@ -249,7 +249,7 @@ void CAN_initialise() {
 	//Start CAN driver
 	if (can_start() == ESP_OK) {
 		printf("Driver started\n");
-
+		
 		xTaskCreate(
 			CAN_output_summary,          /* Task function. */
 			"Output summary message",        /* String with name of task. */
@@ -257,7 +257,7 @@ void CAN_initialise() {
 			NULL,             /* Parameter passed as input of the task */
 			1,                /* Priority of the task. */
 			NULL);            /* Task handle. */
-
+			
 	}
 	else {
 		printf("Failed to start driver\n");
@@ -298,7 +298,7 @@ void CAN_output_summary(void * parameter) {
 			//	printf("Message queued for transmission\n");
 		}
 		else {
-			printf("---- CAN error ----\n");
+			//printf("---- CAN error ----\n");
 		}
 
 		message.identifier = 0x18FF0700;
@@ -318,7 +318,7 @@ void CAN_output_summary(void * parameter) {
 			//	printf("Message queued for transmission\n");
 		}
 		else {
-			printf("---- CAN error ----\n");
+			//printf("---- CAN error ----\n");
 		}
 
 
@@ -339,7 +339,7 @@ void CAN_output_summary(void * parameter) {
 			//	printf("Message queued for transmission\n");
 		}
 		else {
-			printf("---- CAN error ----\n");
+			//printf("---- CAN error ----\n");
 		}
 
 		
@@ -361,7 +361,7 @@ void CAN_output_summary(void * parameter) {
 			//	printf("Message queued for transmission\n");
 		}
 		else {
-			printf("---- CAN error ----\n");
+			//printf("---- CAN error ----\n");
 		}
 
 
@@ -382,7 +382,7 @@ void CAN_output_summary(void * parameter) {
 			//	printf("Message queued for transmission\n");
 		}
 		else {
-			printf("---- CAN error ----\n");
+			//printf("---- CAN error ----\n");
 		}
 
 
@@ -403,7 +403,7 @@ void CAN_output_summary(void * parameter) {
 			//	printf("Message queued for transmission\n");
 		}
 		else {
-			printf("---- CAN error ----\n");
+			//printf("---- CAN error ----\n");
 		}
 
 
@@ -424,7 +424,7 @@ void CAN_output_summary(void * parameter) {
 			//	printf("Message queued for transmission\n");
 		}
 		else {
-			printf("---- CAN error ----\n");
+			//printf("---- CAN error ----\n");
 		}
 
 		if (deviceConnected) {

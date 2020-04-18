@@ -15,14 +15,15 @@
 #define _VSARDUINO_H_
 #define __ESP32_esp32__
 #define __ESP32_ESP32__
+#define _VMDEBUG 1
 #define ESP_PLATFORM
 #define HAVE_CONFIG_H
-#define F_CPU 80000000L
-#define ARDUINO 10809
+#define F_CPU 40000000L
+#define ARDUINO 108012
 #define ARDUINO_ESP32_DEV
 #define ARDUINO_ARCH_ESP32
 #define ESP32
-#define CORE_DEBUG_LEVEL 0
+#define CORE_DEBUG_LEVEL 5
 #define __cplusplus 201103L
 #undef __cplusplus
 #define _Pragma(x)

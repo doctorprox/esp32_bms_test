@@ -171,4 +171,5 @@ C:\Users\lovel\AppData\Local\Temp\VMBuilds\test\esp32_esp32\Debug\test.cpp.o: \
  C:\Users\lovel\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.2\libraries\BLE\src/BLEServer.h \
  C:\Users\lovel\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.2\libraries\BLE\src/BLEUtils.h \
  C:\Users\lovel\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.2\libraries\BLE\src/BLE2902.h \
- C:\Users\lovel\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.2\libraries\BLE\src/BLE2904.h
+ C:\Users\lovel\AppData\Local\arduino15\packages\esp32\hardware\esp32\1.0.2\libraries\BLE\src/BLE2904.h \
+ c:\program\ files\ (x86)\microsoft\ visual\ studio\2017\community\common7\ide\extensions\vaclbusj.ce3\Micro\ Platforms\default\debuggers\VM_DBG/VM_DBG.h
